@@ -12,4 +12,4 @@ Muốn ktra các commit ta dùng lệnh git log
 
 B3: Đẩy code từ local repo lên remote repo để lưu trữ, 
 + Lần đầu sẽ dùng lệnh git push -u origin +tên nhánh (góc dưới trái)
-+ Ngit hững lần sau chỉ dùng lệnh git push originNgit 
++ Những lần sau chỉ dùng lệnh git push origin
