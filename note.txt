@@ -1,0 +1,10 @@
+Cách để tạo một Local Repository: git init
+khởi tạo thành công sẽ có 1 thư mục ẩn .git bên trong thư mục dự án 
+
+cách kết nối Remote Repo với Local Repo lại với nhau dùng lệnh : git remote add origin kèm url đường dẫn tới source code trên remote
+
+CÁC BƯỚC ĐỂ ĐẢY CODE lên Remote Repo
+B1: Đẩy các file có sự thay đổi dùng lệnh git add +tên file nếu muốn đẩy từng file. Lệnh git add + . dấu chấm để đẩy tất cả File. Để ktra sự thay đổi dùng lệnh git status
+Lệnh git reset để hủy tất cả file đc đẩy lên. 
+
+B2: 
