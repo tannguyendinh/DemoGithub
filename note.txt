@@ -4,8 +4,7 @@ khởi tạo thành công sẽ có 1 thư mục ẩn .git bên trong thư mục 
 cách kết nối Remote Repo với Local Repo lại với nhau dùng lệnh : git remote add origin kèm url đường dẫn tới source code trên remote
 
 CÁC BƯỚC ĐỂ ĐẢY CODE lên Remote Repo
-B1: Đẩy các file có sự thay đổi dùng lệnh git add +tên file nếu muốn đẩy từng file. Lệnh git add + . dấu chấm để đẩy tất cả File. 
-Để ktra sự thay đổi dùng lệnh git status
+B1: Đẩy các file có sự thay đổi dùng lệnh git add +tên file nếu muốn đẩy từng file. Lệnh git add + . dấu chấm để đẩy tất cả File. Để ktra sự thay đổi dùng lệnh git status
 Lệnh git reset để hủy tất cả file đc đẩy lên. 
 
 B2: Tạo ra commit để ghi chú lại sự thay đổi code chúng ta dùng lệnh git commit -m "lời nhắn" 
@@ -13,4 +12,4 @@ Muốn ktra các commit ta dùng lệnh git log
 
 B3: Đẩy code từ local repo lên remote repo để lưu trữ, 
 + Lần đầu sẽ dùng lệnh git push -u origin +tên nhánh (góc dưới trái)
-+ Những lần sau chỉ dùng lệnh git push origin.
++ Những lần sau chỉ dùng lệnh git push origin..
